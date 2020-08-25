@@ -120,6 +120,39 @@ a:active {
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
   border-radius: 4px;
 }
+.app-icon-2 {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: url('../img/app_icons.jpg') no-repeat;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  background-position: -250px 0;
+}
+.app-icon-3 {
+  width: 50px;
+  height: 50px;
+  display: block;
+  background: url('../img/app_icons.jpg') no-repeat;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  background-position: -50px 0;
+}
+.menu-adv {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.group .group-name a {
+  color: #333333;
+  font-size: 14px;
+}
+.group .group-name a::after {
+  content: '»';
+}
+.group .right-menu-list li {
+  margin-right: 10px;
+}
+
 /* 首页通用样式结束 */
 
 /* 页头开始 */
@@ -418,11 +451,7 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.movie-area .star .number {
-  font-size: 12px;
-  margin-left: 7px;
-  color: #e09015;
-}
+
 .movie-area .func {
   margin-top: 7px;
 }
@@ -445,17 +474,6 @@ a:active {
 .group-area a:active{
   color: #ffffff !important;
 }
-.group-area .group .group-name a {
-  color: #333333;
-  font-size: 14px;
-}
-.group-area .group .group-name a::after {
-  content: '»';
-}
-.group-area .group .right-menu-list li {
-  margin-right: 10px;
-}
-
 .group-area .main .item-list {
   text-align: justify;
 }
@@ -492,10 +510,6 @@ a:active {
 }
 .book-area a:hover, .book-area a:active {
   color: #ffffff;
-}
-.book-area .menu-adv {
-  margin-top: 20px;
-  font-size: 12px;
 }
 .book-area .right-menu-list li {
   margin-right: 10px;
@@ -539,3 +553,191 @@ a:active {
   background: #878882;
 }
 /* 豆瓣读书结束 */
+
+/* 豆瓣音乐 */
+.music-area a {
+  color: #555d53;
+}
+.music-area a:hover, .music-area a:active {
+  color: #ffffff;
+}
+.music-area .aside-left .title a {
+  color: #f38c00;
+}
+.music-area .aside-left .title a:hover,  .music-area .aside-left .title a:active{
+  color: #ffffff;
+}
+.music-area .music-player-list li .number {
+  font-size: 12px;
+  color: #111111;
+}
+.music-area .music-player-list li .player {
+  width: 240px;
+}
+.music-area .music-player-list li .player .img {
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.music-area .music-player-list li .player .img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+}
+.music-area .music-player-list li .player .img::before {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, .3);
+  text-align: center;
+  line-height: 48px;
+  color: #ffffff;
+}
+.music-area .music-player-list li .player .img:hover::before {
+  display: block;
+}
+.music-area .music-player-list li .player .words {
+  width: 180px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.music-area .music-player-list li .player .words span {
+  display: block;
+  color: #999999;
+  line-height: 1.5;
+}
+.music-area .item-list li {
+  width: 130px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.music-area .item-list li .img img {
+  width: 80px;
+}
+.music-area .item-list li .words {
+  margin: 4px 0;
+}
+.music-area .item-list.hot-music li .words {
+  font-size: 13px;
+  margin: 8px 0;
+}
+.music-area .item-list.hot-music li .img {
+  position: relative;
+}
+.music-area .item-list.hot-music li .img::before {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 25px;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 50%;
+}
+/* 豆瓣音乐结束 */
+
+/* 豆品开始 */
+.doupin-area .aside-left .title a {
+  color: #1f9432;
+}
+
+.doupin-area .aside-left .title a:hover, .doupin-area .aside-left .title a:active {
+  color: #ffffff;
+}
+.doupin-area .aside-right {
+  font-size: 14px;
+}
+.doupin-area .main .item-list li {
+  width: 240px;
+  margin: 0 20px 30px 0;
+}
+.doupin-area .main .item-list .words {
+  margin-top: 10px;
+}
+.doupin-area .main .item-list .words span {
+  color: #e55457;
+}
+/* 豆品结束 */
+
+/* 同城开始 */
+.city-area a {
+  color: #643;
+}
+.city-area a:hover, .city-area a:active {
+  color: #ffffff;
+}
+.city-area .aside-left .title a {
+  color: #ec5303;
+}
+.city-area .aside-left .title a:hover, .city-area .aside-left .title a:active {
+  color: #ffffff;
+}
+.city-area .item-list li {
+  width: 248px;
+  margin-right: 20px;
+  margin-bottom: 60px;
+}
+.city-area .item-list li:nth-child(2n) {
+  margin-right: 0;
+}
+
+.city-area .item-list li .img {
+  margin-right: 10px;
+}
+.city-area .item-list li .words {
+  overflow: hidden;
+}
+.city-area .item-list li .words a {
+  font-size: 13px;
+}
+.city-area .item-list li .words span {
+  font-size: 12px;
+  display: block;
+  color: #666666;
+  line-height: 1.7;
+}
+/* 同城结束 */
+
+/* 页脚开始 */
+.footer {
+  font-size: 12px;
+  line-height: 2;
+  color: #999999;
+}
+.footer .container {
+  border-top: 1px dashed #dcdcdc;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.footer .left img {
+  width: 15px;
+  vertical-align: middle;
+}
+.footer .left, .footer .right {
+  width: 50%;
+}
+.footer .right .menu a {
+  display: inline-block;
+  margin: 0 4px;
+}
+.footer .left, .footer .right .menu a:first {
+  margin-left: 0;
+}
+
+.footer .adv {
+  width: 150px;
+  margin-top: 20px;
+}
+/* 页脚结束 */

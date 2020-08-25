@@ -1,6 +1,6 @@
 
 /* 多页面共享的CSS代码 */
-@import "//at.alicdn.com/t/font_2011691_h2upi9brwhd.css";
+@import "//at.alicdn.com/t/font_2011691_xqg4ym73ww.css";
 
 body {
   font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -69,4 +69,9 @@ body {
 }
 .star00 {
   background-position: 0 -110px;
+}
+.star .number {
+  font-size: 12px;
+  margin-left: 7px;
+  color: #e09015;
 }
